@@ -37,6 +37,11 @@ nav ul li {
   color:#fffff0 ;
 
 }
+.active {
+text: underline;
+
+}
+
 .nav {margin: 0px auto; 
       text-align: center; 
       }
@@ -63,18 +68,18 @@ footer {
 
 /* Style buttons, del documento */
 .btn {
-  background-color: DodgerBlue; /* Blue background */
-  border: none; /* Remove borders */
-  color: white; /* White text */
-  padding: 20px; /* Some padding */
-  font-size: 20px; /* Set a font size */
-  cursor: pointer; /* Mouse pointer on hover */
+  background-color: #2596be;
+  border: #2596be; 
+  color: white; 
+  width:30px;
+  padding: 0,5em; 
+  font-size: 20px; 
   border-radius: 50%;
 }
 
-/* Darker background on mouse-over */
+
 .btn:hover {
-  background-color: RoyalBlue;
+  opacity: 0.7;
 }
 
 .homeimage {
