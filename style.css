@@ -1,0 +1,78 @@
+header {
+  background-color:#be4d25;
+  color: #2596be;
+  text-align: center;
+  margin-right: 0px auto;
+  margin-left: 0px auto;
+  padding: 1em;
+}
+
+body {
+  margin:20px;
+  font-family: 'Noto' !important; 
+  text-align: center;
+  background-color: #fffff0;
+}
+nav ul { 
+  list-style-type: none; 
+  padding-left:0px; 
+  display: inline-block;
+}
+
+nav ul li { 
+  display: inline-block; 
+          /*background-color: white;*/
+  padding:1em;
+  text-transform: uppercase;
+  text-align: center;
+  }
+
+.whitelink {  
+  text-decoration: none; 
+  color: #2596be;
+  margin: 30px;
+  }
+
+.whitelink:hover {
+  color:#fffff0 ;
+
+}
+.nav {margin: 0px auto; 
+      text-align: center; 
+      }
+.dropdown-menu {margin: 0px auto; 
+  text-align: center; 
+  display: inline-block;
+  }
+
+.dropdown-item {
+  display: inline-block
+}
+
+
+
+
+footer {
+  background-color:#2596be;
+  text-align: center;
+  margin-right: 0px auto;
+  margin-left: 0px auto;
+  padding: 40px;
+}
+
+
+/* Style buttons, del documento */
+.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 20px; /* Some padding */
+  font-size: 20px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  border-radius: 50%;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
