@@ -38,7 +38,8 @@ nav ul li {
 
 }
 .active {
-text: underline;
+/*per evidenziare la pagina in cui siamo*/
+text-decoration: underline;
 
 }
 
@@ -92,4 +93,7 @@ max-width: 1em;
 
 }
 
-.morepadding {}
+.morepadding {
+  letter-spacing: 0.05em;
+
+}
