@@ -4,12 +4,19 @@ header {
   text-align: center;
   margin-right: 0px auto;
   margin-left: 0px auto;
-  margin:none;
-  padding: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+
+  padding-right: 0em;
+  padding-left: 0em;
+  padding-top: 5em;
+  padding-bottom: 0,5em;
+
+
 }
 
 body {
-  margin:20px;
+  margin:70px;
   font-family: 'Noto' !important; 
   text-align: center;
   background-color: #fffff0 !important;
@@ -24,12 +31,12 @@ nav ul li {
   display: inline-block; 
           /*background-color: white;*/
   padding:1em;
-  text-transform: uppercase;
+  
   text-align: center;
   }
 
 .whitelink {  
-  text-decoration: none; 
+  text-decoration: none !important; 
   color: #2596be;
   margin: 30px;
   }
@@ -37,6 +44,7 @@ nav ul li {
 .whitelink:hover {
   color:#fffff0 !important ;
   /*non so se lo fa panna o se rimane bianco*/
+  text-decoration: none !important;
 
 }
 .active {
@@ -57,7 +65,7 @@ in head codice per fare colonne in body mi diventava bianco */
   }
 
 .dropdown-item {
-  display: inline-block
+  display: inline-block;
 }
 
 
@@ -98,14 +106,15 @@ footer {
   height: auto;
   /*4 seguenti per centrare immagine*/
   display: block;
-  margin-right: auto;
+  margin-right: auto, 0px;
   margin-left: auto;
-  width: 50%;
+  width: 100%;
+  padding-top:0px;
+  padding
+ 
+  margin-top: 0px;
+  margin-bottom: 10%;
 
-  padding: none;
-  margin:none;
-
-  max-width: 70%;
   min-height:10%;
 
 }
@@ -113,4 +122,23 @@ footer {
 .morepadding {
   padding: 1em 15%;
   letter-spacing: 0.05em;
+}
+
+#concerto1image {
+  width: 16em;
+}
+#teatro1image {
+  width: 12em;
+}
+
+#banddistrada1image {
+  width: 12em;
+}
+
+#bar1image {
+  width: 14em;
+}
+
+#disco1image {
+  width: 6em;
 }
