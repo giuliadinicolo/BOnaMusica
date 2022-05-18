@@ -32,6 +32,7 @@ nav ul li {
   display: inline-block; 
           /*background-color: white;*/
   padding:1em;
+
   
   }
 
@@ -129,33 +130,119 @@ footer {
   width: 22em !important;
   width: 100%;
   height: auto;
+  /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
+  max-width: 100%;
+  height: auto;
+  /*4 seguenti per centrare immagine*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  opacity: 0,5;
+  opacity: 0.5;
+  transition: opacity .25s ease-in-out;
 }
 #teatro1image {
   width: 20em !important;
   width: 100%;
   height: auto;
+  /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
+  max-width: 100%;
+  height: auto;
+  /*4 seguenti per centrare immagine*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  opacity: 0,5;
+  opacity: 0.5;
+  transition: opacity .25s ease-in-out;
 }
 
 #banddistrada1image {
   width: 16em !important;
   width: 100%;
   height: auto;
+  /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
+  max-width: 100%;
+  height: auto;
+  /*4 seguenti per centrare immagine*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  opacity: 0,5;
+  opacity: 0.5;
+  transition: opacity .25s ease-in-out;
 }
 
 #bar1image {
   width: 17em !important;
   width: 100%;
   height: auto;
+  /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
+  max-width: 100%;
+  height: auto;
+  /*4 seguenti per centrare immagine*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  opacity: 0,5;
+  opacity: 0.5;
+  transition: opacity .25s ease-in-out;
 }
 
 #disco1image {
   width: 8em !important;
   width: 100%;
   height: auto;
+  /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
+  max-width: 100%;
+  height: auto;
+  /*4 seguenti per centrare immagine*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  opacity: 0,5;
+  opacity: 0.5;
+  transition: opacity .25s ease-in-out;
+}
+#concerto1image:hover {
+  opacity: 1.0;
+}
+
+#teatro1image:hover {
+  opacity: 1.0;
+} 
+
+#banddistrada1image:hover {
+  opacity: 1.0;
+}
+
+#bar1image:hover {
+  opacity: 1.0;
+}
+
+#disco1image:hover {
+  opacity: 1.0;
 }
 
 #motto {
   font-family: 'Chewy', cursive, !important;
 
   text-align: center !important;
+}
+
+#pulsante {
+outline: none;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+font: bold 12px Arial, Helvetica, sans-serif;
+color: #fff;
+padding: 10px 20px;
+border: solid 1px #0076a3;
+background: #0095cd;
 }
