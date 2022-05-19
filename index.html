@@ -1,12 +1,11 @@
 <!doctype html>
 <html lang="it">
 <head>
-	<meta charset='uft-8'>
-   	 <link rel = "stylesheet" type = "text/css" href= "css/style.css">
-   	 <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta charset='uft-8'>
+     <link rel = "stylesheet" type = "text/css" href= "css/style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Noto+Serif:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
-
    <!-- per menu a tendina-->
    <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>.dropbtn {
@@ -22,15 +21,12 @@
   border: none;
    font-family: 'Noto Serif' sans-serif;
 }
-
 .dropdown {
   position: relative;
   display: inline-block;
   border: none;
    font-family: 'Noto Serif' sans-serif;
-
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -41,23 +37,18 @@
   margin-bottom: 1px;
   text-align: center;
 }
-
 .dropdown-content a {
   color: #2450A6;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-
 .dropdown-content a:hover {color: #F25D07;}
 /*il seguente serve per device piccoli, quando fai solo click*/
 .dropdown-content a:active {color: #F25D07;}
-
 .dropdown:hover .dropdown-content {display: block;}
-
 .dropdown:hover .dropbtn {color: #ECEEF0;}
 </style>
-
 <!-- per icona instagram-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -70,12 +61,10 @@
   text-decoration: none !important;
   border-radius: 50%;
 }
-
 .fa:hover {
     opacity: 0.7;
     color: #F25D07;
 }
-
 .fa-instagram {
   background: none;
   color: #ECEEF0;
@@ -92,23 +81,18 @@
   /*per togliere sottolineatura da icone*/
   border-radius: 50%;
 }
-
 .fa:hover {
     opacity: 0.7;
     color: #F25D07;
 }
-
 .fa-facebook {
   background: none;
   color: #ECEEF0;
 }
-
-
 </style>
 <!--per icona documento-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<title>BOna musica</title>
+  <title>BOna musica</title>
 <!-- Chatra {literal} -->
 <script>
     (function(d, w, c) {
@@ -126,22 +110,71 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Noto+Serif:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
+ <!--per sfondo blu piu scritte nelle 5 immagini-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  margin-left: none;
+  margin-right: none;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2450A6;
+  max-width: 100%;
+  height: auto;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #ECEEF0;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  font-family: 'Noto Serif' sans-serif !important;
+}
+</style>
 </head>
 <body>
-  <div class="container-fluid">
+  <div class="container-fluid" >
 <!--questo per rendere tutto il testo responsive-->
-	<header>
+  <header>
    
-		<h1></h1>
-			<nav>
-         <ul>                    	
+    <h1></h1>
+      <nav>
+         <ul>                     
 <li class="active"><a class= "whitelink active" href = "#"><b>HOME</b></a></li>
 <div class="dropdown">
   <button class="dropbtn"><b>MUSIC EVENTS</b></button>
@@ -154,7 +187,7 @@
   </div>
 </div>
 <li><a class= "whitelink"  href  =""><b>ABOUT US</b></a></li>
-          </ul>     	
+          </ul>       
            </nav>
             <section>
             <img id="homeimage" src= "images/LOGO.png" alt="Logo BOna Musica"/>
@@ -164,51 +197,90 @@
         </section>
      </header>
      <main>
-
         <section class="row morepadding">
             <section class="col-sm-12 col-md-12 col-lg-6">
               <h2>Concerti</h2>
-              <div class="hover5images"><img id="concerto1image" src= "images/concert.jpg" class="rounded" alt="Esibizione di band in concerto"/> </div>
-              <p> bla bla bla </p>
+             <div class="container">
+              <img id="concerto1image" src= "images/concertq.jpg" class="rounded" class="image" alt="Esibizione di band in concerto" height="42" width="42"/> 
+               <div class="overlay">
+              <div class="text">Sei tra quelli che </br>
+                                non perdono occasione </br>
+                                per scatenarsi ad un </br>
+                                <b>concerto </b>?</div>
+              </div>
+            </div>
+
               <button id="pulsante">Scopri di più</button>
             </section>
             <section class="col-sm-12 col-md-12 col-lg-6">
               <h2>Teatro</h2>
-              <img id="teatro1image" src= "images/theatre.jpg" class="rounded" alt="Palcoscenico teatrale"/>
+              <div class="container">
+              <img id="teatro1image" src= "images/theatreq.jpg" class="rounded" class="image" alt="Palcoscenico teatrale" height="42" width="42"/>
+              <div class="overlay">
+              <div class="text">Il chiasso di Piazza Verdi </br>
+                                non ti ha impedito di intercettare </br>
+                                la sinfonia dell'altoparlante </br>
+                                del <b> teatro </b>?</div>
+              </div>
+            </div>
+
+
+
               <button id="pulsante">Scopri di più</button>
-              <p> bla bla bla</p>
+            
             </section>
           </section>
           <section class="row morepadding">
-           <section class="col-sm-12 col-md-12 col-lg-4">
+           <section class="col-sm-12 col-md-12 col-lg-6">
               <h3>Band di strada</h3>
-              <img id="banddistrada1image" src= "images/banddistrada.jpg"class="rounded" alt="Esibizione di band di strada"/>
+              <div class="container">
+              <img id="banddistrada1image" src= "images/banddistradaq.jpg"class="rounded" class="image" alt="Esibizione di band di strada" height="42" width="42"/>
+              <div class="overlay">
+              <div class="text">... quel gruppetto di musicisti </br>
+                                nelle domeniche pedonali... </br>
+                                non è lì per caso! </br>
+                                Non perderti la tua </br>
+                                <b>musica di strada </b> preferita!</div>
+              </div>
+            </div>
               <button id="pulsante">Scopri di più</button>
-              <p> paragrafo </p>
+              
             </section>
-            <section class="col-sm-12 col-md-12 col-lg-4">
+            <section class="col-sm-12 col-md-12 col-lg-6">
               <h3>Coktail bar</h3>
-              <img id="bar1image" src= "images/bar.jpg" class="rounded" alt="Serata in coktail bar"/>
+               <div class="container">
+              <img id="bar1image" src= "images/barq.jpg" class="rounded" class="image" alt="Serata in coktail bar" height="42" width="42"/>
+              <div class="overlay">
+              <div class="text">Zero idee su come passare la serata </br>
+                                ma hai 3 must intoccabili: </br>
+                                - <b>bere</b>- <b> musica </b> - <b> compagnia </b>?</div>
+              </div>
+            </div>
               <button id="pulsante">Scopri di più</button>
-              <p> bla bla bla </p>
+             
             </section>
-            <section class="col-sm-12 col-md-12 col-lg-4">
+            <section class="col-sm-12 col-md-12 col-lg-6">
               <h3>Disco<h3>
-                <img id="disco1image" src= "images/disco.jpg" class="rounded" alt="area Dj"/>
+                <div class="container">
+                <img id="disco1image" src= "images/discoq.jpg" class="rounded" class="image" alt="area Dj" height="42" width="42"/>
+                <div class="overlay">
+              <div class="text">Impaziente di conoscere </br>
+                                le grandi serate in <b>disco</b> </br>
+                                a Bologna e dintorni?</div>
+              </div>
+            </div>
                 <button id="pulsante">Scopri di più</button>
-              <p> bla bla bla </p>
+              
             </section>      
           </section>
      </main>
-			
+      
     <footer>
       <!-- Add font awesome icons -->
-
 <a href="#" class="fa fa-instagram"></a>
 <a href="#" class="fa fa-facebook"></a>
-
 <button class="btn"><i class="fa fa-folder"></i></button>
     </footer>
-	
+  
   </div>
 </body>

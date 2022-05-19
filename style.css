@@ -7,7 +7,7 @@ header {
   padding-right: 0em;
   padding-left: 0em;
   padding-top: 1em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   padding: #F25D07 !important;
   font-family: 'Chewy', cursive, !important;
 
@@ -127,7 +127,7 @@ footer {
 }
 
 #concerto1image {
-  width: 22em !important;
+  width: auto !important;
   width: 100%;
   height: auto;
   /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
@@ -138,12 +138,15 @@ footer {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  opacity: 0,5;
-  opacity: 0.5;
-  transition: opacity .25s ease-in-out;
+  position: relative;
+   /*cose copiete da sito di ken*/
+    background: no-repeat bottom center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
 }
 #teatro1image {
-  width: 20em !important;
+  width: auto !important;
   width: 100%;
   height: auto;
   /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
@@ -154,13 +157,11 @@ footer {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  opacity: 0,5;
-  opacity: 0.5;
-  transition: opacity .25s ease-in-out;
+  
 }
 
 #banddistrada1image {
-  width: 16em !important;
+  width: auto !important;
   width: 100%;
   height: auto;
   /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
@@ -171,13 +172,11 @@ footer {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  opacity: 0,5;
-  opacity: 0.5;
-  transition: opacity .25s ease-in-out;
+  
 }
 
 #bar1image {
-  width: 17em !important;
+  width: auto !important;
   width: 100%;
   height: auto;
   /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
@@ -188,13 +187,11 @@ footer {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  opacity: 0,5;
-  opacity: 0.5;
-  transition: opacity .25s ease-in-out;
+  
 }
 
 #disco1image {
-  width: 8em !important;
+  width: auto !important;
   width: 100%;
   height: auto;
   /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
@@ -205,9 +202,7 @@ footer {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  opacity: 0,5;
-  opacity: 0.5;
-  transition: opacity .25s ease-in-out;
+  
 }
 #concerto1image:hover {
   opacity: 1.0;
@@ -230,9 +225,10 @@ footer {
 }
 
 #motto {
-  font-family: 'Chewy', cursive, !important;
-
+  font-family: 'Chewy';
   text-align: center !important;
+  font-size:3em;
+  /*non so come mettere il testo in centro rispetto all'arancio*/
 }
 
 #pulsante {
