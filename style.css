@@ -1,13 +1,13 @@
 header {
   background-color:#F25D07;
   color: #2450A6;
-  text-align: right;
+  text-align: center;
   margin: 0em; /*per togliere margin panna sopra*/
 
   padding-right: 0em;
   padding-left: 0em;
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 6em;
   padding: #F25D07 !important;
   font-family: 'Chewy', cursive, !important;
 
@@ -124,6 +124,8 @@ footer {
 .morepadding {
   padding: 1em 15%;
   letter-spacing: 0.05em;
+  padding-top: 10em;
+  padding-bottom: 10em;
 }
 
 #concerto1image {
@@ -139,11 +141,7 @@ footer {
   margin-left: auto;
   width: 100%;
   position: relative;
-   /*cose copiete da sito di ken*/
-    background: no-repeat bottom center;
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
+   
 }
 #teatro1image {
   width: auto !important;
@@ -204,31 +202,34 @@ footer {
   width: 100%;
   
 }
-#concerto1image:hover {
-  opacity: 1.0;
+#karaoke1image {
+  width: auto !important;
+  width: 100%;
+  height: auto;
+  /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
+  max-width: 100% !important;
+  height: auto;
+  /*4 seguenti per centrare immagine*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+   
 }
 
-#teatro1image:hover {
-  opacity: 1.0;
-} 
-
-#banddistrada1image:hover {
-  opacity: 1.0;
-}
-
-#bar1image:hover {
-  opacity: 1.0;
-}
-
-#disco1image:hover {
-  opacity: 1.0;
-}
 
 #motto {
   font-family: 'Chewy';
   text-align: center !important;
-  font-size:3em;
+  font-size:4em;
+  vertical-align;
   /*non so come mettere il testo in centro rispetto all'arancio*/
+  margin-top: auto;
+  margin-bottom: auto;
+  
+
+padding-right: 1em;
+padding-left: 1em;
 }
 
 #pulsante {
@@ -236,9 +237,63 @@ outline: none;
 cursor: pointer;
 text-align: center;
 text-decoration: none;
-font: bold 12px Arial, Helvetica, sans-serif;
-color: #fff;
+font-family: 'Noto Serif' sans-serif;
+color: #ECEEF0;
 padding: 10px 20px;
 border: solid 1px #0076a3;
-background: #0095cd;
+background: #2450A6;
+}
+
+ #pulsante:hover{
+  color:#F25D07;
+ }
+
+ #concerts {
+  width: auto !important;
+  width: 100%;
+  height: auto;
+  /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
+  max-width: 100%;
+  height: auto;
+  /*4 seguenti per centrare immagine*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+ }
+
+ .fa-solid {
+  margin:70px;
+   
+  text-align: center;
+ }
+
+ .google-maps {
+  position: relative;
+  padding-bottom: 75%; /* Definisco l'aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+.google-maps > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+#logoo {
+/*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
+  max-width: 100%;
+  height: auto !important;
+  /*4 seguenti per centrare immagine*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-height: 100px;
+
+}
+
+.w3-tiny {
+  
 }
