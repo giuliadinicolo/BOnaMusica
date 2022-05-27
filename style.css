@@ -15,8 +15,7 @@ header {
 }
 
 body {
-  margin:70px;
-   
+  margin:70px; 
   text-align: center;
   background-color: #ECEEF0 !important;
   font-family: 'Chewy', cursive;
@@ -31,18 +30,18 @@ nav ul {
 nav ul li { 
   display: inline-block; 
           /*background-color: white;*/
-  padding:1em;
+  padding:none;
 
   
   }
 
-.whitelink {  
+.bluelink {  
   text-decoration: none !important; 
-  color: #2450A6;
+  color: #2450A6 !important;
   margin: 30px;
   }
 
-.whitelink:hover {
+.bluelink:hover {
   color:#ECEEF0 !important ;
   /*non so se lo fa panna o se rimane bianco*/
   text-decoration: none !important;
@@ -58,7 +57,7 @@ in head codice per fare colonne in body mi diventava bianco */
 
 .nav {margin-top: 0px auto; 
       margin-bottom: 0px auto;
-      text-align: center !important; 
+      text-align: right !important; 
       }
 .dropdown-menu {margin: 0px auto; 
    
@@ -123,7 +122,7 @@ footer {
 
 .morepadding {
   padding: 1em 15%;
-  letter-spacing: 0.05em;
+ 
   padding-top: 10em;
   padding-bottom: 10em;
 }
@@ -226,6 +225,7 @@ footer {
   /*non so come mettere il testo in centro rispetto all'arancio*/
   margin-top: auto;
   margin-bottom: auto;
+   letter-spacing: 0.03em;
   
 
 padding-right: 1em;
@@ -294,6 +294,14 @@ background: #2450A6;
 
 }
 
-.w3-tiny {
+
+.logoovale {
+  width: 10%;
+  padding-left: none !important;
+  margin-left:none !important;
+  border-left-width: none;
+  border-left-width: 0%;
+  margin-right: 30%;
+  
   
 }
