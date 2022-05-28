@@ -136,10 +136,10 @@ footer {
   height: auto;
   /*4 seguenti per centrare immagine*/
   display: block;
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
-  position: relative;
+  margin-bottom:5%;
+  /*per distanziare il bottone*/
+  
+  border-radius:10%;
    
 }
 #teatro1image {
@@ -153,8 +153,8 @@ footer {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 100%;
-  
+  margin-bottom:5%;
+  border-radius:10%;
 }
 
 #banddistrada1image {
@@ -168,7 +168,9 @@ footer {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom:5%;
   width: 100%;
+  border-radius:10%;
   
 }
 
@@ -183,8 +185,9 @@ footer {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom:5%;
   width: 100%;
-  
+  border-radius:10%;
 }
 
 #disco1image {
@@ -198,8 +201,9 @@ footer {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom:5%;
   width: 100%;
-  
+  border-radius:10%;
 }
 #karaoke1image {
   width: auto !important;
@@ -212,8 +216,9 @@ footer {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom:5%;
   width: 100%;
-   
+  border-radius:10%; 
 }
 
 
@@ -232,7 +237,7 @@ padding-right: 1em;
 padding-left: 1em;
 }
 
-#pulsante {
+.pulsante {
 outline: none;
 cursor: pointer;
 text-align: center;
@@ -242,10 +247,13 @@ color: #ECEEF0;
 padding: 10px 20px;
 border: solid 1px #0076a3;
 background: #2450A6;
+margin-top:auto !important;
+border-radius: 10px;
 }
 
- #pulsante:hover{
+ .pulsante:hover{
   color:#F25D07;
+  text-decoration: none;
  }
 
  #concerts {
@@ -304,4 +312,9 @@ background: #2450A6;
   margin-right: 30%;
   
   
+}
+
+#iconathink {
+  width: 10%;
+  background-color:#ECEEF0 ;
 }
