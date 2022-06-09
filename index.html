@@ -56,15 +56,15 @@
 <style>
 .fa {
   padding: 0,5em;
-  font-size: 20px;
-  width: 30px;
+  
+  width: 5em;
   text-align: center;
   text-decoration: none !important;
-  border-radius: 50%;
+  
 }
 .fa:hover {
     opacity: 0.7;
-    color: #F25D07;
+    color: #F25D07 !important;
 }
 .fa-instagram {
   background: none;
@@ -75,12 +75,11 @@
 <style>
 .fa {
   padding: 0,5em;
-  font-size: 20px;
-  width: 30px;
+
+  width: 5em;
   text-align: center;
   text-decoration: none !important;
   /*per togliere sottolineatura da icone*/
-  border-radius: 50%;
 }
 .fa:hover {
     opacity: 0.7;
@@ -92,8 +91,29 @@
 }
 </style>
 <!--per icona documento-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>BOna musica</title>
+<style>
+.fa {
+  background-color: none;
+  color: #ECEEF0 !important;
+  width: 5em;
+  cursor: pointer;
+  text-align:center;
+}
+
+.fa:hover {
+  background: none;
+  opacity: 0.7;
+  color: #F25D07;
+}
+.fa-folder {
+  background: none;
+  color: #ECEEF0;
+}
+</style>
+  <title>BOna Musica</title>
 <!-- Chatra {literal} -->
 <script>
     (function(d, w, c) {
@@ -117,7 +137,7 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
- <!--per sfondo blu piu scritte nelle 5 immagini-->
+ <!--per sfondo blu piu scritte nelle 6 immagini-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .container {
@@ -125,12 +145,15 @@
   width: 100%;
   margin-left: none;
   margin-right: none;
+  
 }
 
 .image {
   display: block;
   width: 100%;
   height: auto;
+  
+  
 }
 
 .overlay {
@@ -145,7 +168,6 @@
   transition: .5s ease;
   background-color: #2450A6;
   max-width: 100%;
-  height: auto;
   border-radius:10%;
 }
 
@@ -195,7 +217,7 @@
   <header>
       <nav>
          <ul>   
-         <img class="logoovale" src= "images/logoovalel.png" alt="Logo BOna Musica"/>                
+         <a href="index.html"><img class="logoovale" src="images/logoovalel.png" alt="Logo BOna Musica"/></a>                
 <li class="active"><a class= "bluelink" href = "#"><b>HOME</b></a></li>
 <div class="dropdown">
   <button class="dropbtn"><b>MUSIC EVENTS</b></button>
@@ -209,7 +231,7 @@
   </div>
 </div>
 <li><a class= "bluelink"  href  ="aboutus.html"><b>ABOUT US</b></a></li>
-<li><a class= "bluelink"  href  =""><b>UNISCITI A NOI</b></a></li>
+<li><a class= "bluelink"  href  ="uniscitianoi.html"><b>UNISCITI A NOI</b></a></li>
           </ul>       
            </nav>
             <section>
@@ -222,8 +244,10 @@
      </header>
      <main>
         <section class="row morepadding">
-            <section class="col-sm-12 col-md-12 col-lg-6">
+            <section class="col-12 col-sm-12 col-md-12 col-lg-6">
+              <section>
               <h2>Concerti</h2>
+            </section>
              <div class="container">
               <img id="concerto1image" src= "images/concertq.jpg" class="image" alt="Esibizione di band in concerto" /> 
                <div class="overlay">
@@ -236,8 +260,10 @@
              <a href="concerti.html" class="pulsante">Scopri di più</a>
            
             </section>
-            <section class="col-sm-12 col-md-12 col-lg-6">
+            <section class="col-12 col-sm-12 col-md-12 col-lg-6">
+              <section>
               <h2>Teatro</h2>
+              </section>
               <div class="container">
               <img id="teatro1image" src= "images/theatreq.jpg" class="image" alt="Palcoscenico teatrale"/>
               <div class="overlay">
@@ -250,10 +276,24 @@
             <a href="teatro.html" class="pulsante">Scopri di più</a>
             
             </section>
+<style>
+            .col-sm-12 {
+ padding-top: 7em;
+  padding-bottom: 7em; 
+  
+}
+
+.col-md-12{
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+</style>
           </section>
           <section class="row morepadding">
               <section class="col-sm-12 col-md-12 col-lg-6">
-              <h3>Band di strada</h3>
+              <section>
+              <h2>Band di strada</h2>
+              </section>
               <div class="container">
               <img id="banddistrada1image" src= "images/banddistradaq.jpg" class="image" alt="Esibizione di band di strada"/>
               <div class="overlay">
@@ -269,7 +309,9 @@
              </section>
           
             <section class="col-sm-12 col-md-12 col-lg-6">
-              <h3>Cocktail bar</h3>
+              <section>
+              <h2>Cocktail bar</h2>
+              </section>
                <div class="container">
               <img id="bar1image" src= "images/barq.jpg" class="image" alt="Serata in coktail bar"/>
               <div class="overlay">
@@ -280,11 +322,25 @@
             </div>
               <a href="cocktailbar.html" class="pulsante">Scopri di più</a>
             </section>
+            <style>
+            .col-sm-12 {
+ padding-top: 7em;
+  padding-bottom: 7em; 
+  
+}
+
+.col-md-12{
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+</style>
           </section>
 
             <section class="row morepadding">
             <section class="col-sm-12 col-md-12 col-lg-6">
-              <h3>Disco<h3>
+              <section>
+              <h2>Disco<h2>
+                </section>
                 <div class="container">
                 <img id="disco1image" src= "images/discoq.jpg" class="image" alt="area Dj"/>
                 <div class="overlay">
@@ -296,25 +352,45 @@
                 <a href="disco.html" class="pulsante">Scopri di più</a>
             </section>   
             <section class="col-sm-12 col-md-12 col-lg-6">
-              <h3>Karaoke</h3>
+              <section>
+              <h2>Karaoke</h2>
+              </section>
                    <div class="container">
                 <img id="karaoke1image" src= "images/karaoke3q.jpg" class="image" alt="serata karaoke"/>
                 <div class="overlay">
               <div class="text">Le serate in cui cantare </br>
-                                a scquarciagola nel <b>karaoke</b> con i</br>
+                                a squarciagola nel <b>karaoke</b> con i</br>
                                 tuoi amici sono le tue preferite?</div>
               </div>
             </div>
                 <a href="karaoke.html" class="pulsante">Scopri di più</a>
               
             </section> 
+            <style>
+            .col-sm-12 {
+ padding-top: 7em;
+  padding-bottom: 7em; 
+  
+}
+
+.col-md-12{
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+</style>
           </section>         
      </main> 
     <footer>
+      <section>
+<p>Seguici sui nostri <b>canali Social</b></p>
+      </section>
       <!-- Add font awesome icons -->
-<a href="#" class="fa fa-instagram"></a>
+<a href="https://www.instagram.com/bonamusica.info/" class="fa fa-instagram"></a>
 <a href="#" class="fa fa-facebook"></a>
-<button class="btn"><i class="fa fa-folder"></i></button>
+<a href="doc.html" class="fa fa-folder"></a>
+<section class="rights">
+<p>©2022 BOna Musica - All rights riserved - Project made by Giulia Di Nicolò &amp Melissa Bocchi</p>
+</section>
     </footer>
   </div>
 </body>

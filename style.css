@@ -20,19 +20,17 @@ body {
   background-color: #ECEEF0 !important;
   font-family: 'Chewy', cursive;
   font-family: 'Noto Serif' sans-serif;
-}
+  color:#2450A6;
+  }
 nav ul { 
   list-style-type: none; 
   padding-left:0px; 
   display: inline-block;
-}
+  }
 
 nav ul li { 
   display: inline-block; 
-          /*background-color: white;*/
   padding:none;
-
-  
   }
 
 .bluelink {  
@@ -45,32 +43,26 @@ nav ul li {
   color:#ECEEF0 !important ;
   /*non so se lo fa panna o se rimane bianco*/
   text-decoration: none !important;
-
-}
+  }
 .active {
-/*per evidenziare la pagina in cui siamo decidere una delle due opzioni*/
-text-decoration: underline;
-/*avevo messo opzione background-color: #fffff0 ma quando ho aggiunto 
-in head codice per fare colonne in body mi diventava bianco */
+  text-decoration: underline;
+  }
 
-}
+.nav {
+  margin-top: 0px auto; 
+  margin-bottom: 0px auto;
+  text-align: right !important; 
+  }
 
-.nav {margin-top: 0px auto; 
-      margin-bottom: 0px auto;
-      text-align: right !important; 
-      }
-.dropdown-menu {margin: 0px auto; 
-   
+.dropdown-menu {
+  margin: 0px auto; 
   display: inline-block;
   }
 
 .dropdown-item {
   display: inline-block;
   text-align: center !important;
-}
-
-
-
+  }
 
 footer {
   background-color:#2450A6;
@@ -79,53 +71,43 @@ footer {
   margin-right: 0px auto;
   margin-left: 0px auto;
   padding: 40px;
-}
-
-
-/* Style buttons, del documento */
-.btn {
-  background-color: #2450A6; 
-  border: #2450A6; 
-  color: white !important; 
-  width:30px;
-  padding: 0,5em; 
-  font-size: 20px; 
-  border-radius: 50%;
-}
-
-
-.btn:hover {
-  
-  color: #F25D07;
-}
+  }
 
 #homeimage {
- 
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  padding-top:0px;
+  margin-top: 0px;
+  margin-bottom: 10%;
+  min-height:10%;
+  }
 
- /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
+.headerimage {
+/*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
   max-width: 100%;
   height: auto;
   /*4 seguenti per centrare immagine*/
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 100%;
-  padding-top:0px;
-  padding
- 
+  width: 70%;
   margin-top: 0px;
-  margin-bottom: 10%;
-
-  min-height:10%;
-
-}
+  margin-bottom: 1% !important;
+  min-height:10% !important;
+  }
 
 .morepadding {
-  padding: 1em 15%;
- 
-  padding-top: 10em;
-  padding-bottom: 10em;
-}
+  padding: 1em 15%;   
+  }
+
+h2 {
+  color: #2450A6;
+  }
+
 
 #concerto1image {
   width: auto !important;
@@ -138,10 +120,8 @@ footer {
   display: block;
   margin-bottom:5%;
   /*per distanziare il bottone*/
-  
-  border-radius:10%;
-   
-}
+  border-radius:10%;  
+  }
 #teatro1image {
   width: auto !important;
   width: 100%;
@@ -155,7 +135,7 @@ footer {
   margin-left: auto;
   margin-bottom:5%;
   border-radius:10%;
-}
+  }
 
 #banddistrada1image {
   width: auto !important;
@@ -171,8 +151,7 @@ footer {
   margin-bottom:5%;
   width: 100%;
   border-radius:10%;
-  
-}
+  }
 
 #bar1image {
   width: auto !important;
@@ -188,7 +167,7 @@ footer {
   margin-bottom:5%;
   width: 100%;
   border-radius:10%;
-}
+  }
 
 #disco1image {
   width: auto !important;
@@ -204,7 +183,8 @@ footer {
   margin-bottom:5%;
   width: 100%;
   border-radius:10%;
-}
+  }
+
 #karaoke1image {
   width: auto !important;
   width: 100%;
@@ -219,8 +199,12 @@ footer {
   margin-bottom:5%;
   width: 100%;
   border-radius:10%; 
-}
+  }
 
+.col-sm-12 {
+  padding-top: 2em;
+  padding-bottom: 2em; 
+  }
 
 #motto {
   font-family: 'Chewy';
@@ -228,33 +212,32 @@ footer {
   font-size:4em;
   vertical-align;
   /*non so come mettere il testo in centro rispetto all'arancio*/
-  margin-top: auto;
+  margin-top: 1em;
   margin-bottom: auto;
-   letter-spacing: 0.03em;
-  
-
-padding-right: 1em;
-padding-left: 1em;
-}
+  letter-spacing: 0.03em;
+  padding-right: 1em;
+  padding-left: 1em;
+  }
 
 .pulsante {
-outline: none;
-cursor: pointer;
-text-align: center;
-text-decoration: none;
-font-family: 'Noto Serif' sans-serif;
-color: #ECEEF0;
-padding: 10px 20px;
-border: solid 1px #0076a3;
-background: #2450A6;
-margin-top:auto !important;
-border-radius: 10px;
-}
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Noto Serif' sans-serif;
+  color: #ECEEF0;
+  padding: 10px 20px;
+  border: solid 1px #0076a3;
+  background: #2450A6;
+  margin-bottom: 30% !important;
+  margin-top:auto !important;
+  border-radius: 10px;
+  }
 
- .pulsante:hover{
+ .pulsante:hover {
   color:#F25D07;
   text-decoration: none;
- }
+  }
 
  #concerts {
   width: auto !important;
@@ -268,29 +251,17 @@ border-radius: 10px;
   margin-right: auto;
   margin-left: auto;
   width: 100%;
- }
+  }
 
  .fa-solid {
   margin:70px;
-   
   text-align: center;
- }
-
- .google-maps {
-  position: relative;
-  padding-bottom: 75%; /* Definisco l'aspect ratio */
-  height: 0;
-  overflow: hidden;
-}
-.google-maps > iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
-}
+  }
+#maps {
+  height:auto !important;
+  }
+ 
 #logoo {
-/*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
   max-width: 100%;
   height: auto !important;
   /*4 seguenti per centrare immagine*/
@@ -299,22 +270,152 @@ border-radius: 10px;
   margin-left: auto;
   width: 100%;
   max-height: 100px;
-
-}
+  }
 
 
 .logoovale {
+  max-width: 100%;
+  height: auto !important;
   width: 10%;
   padding-left: none !important;
   margin-left:none !important;
   border-left-width: none;
-  border-left-width: 0%;
-  margin-right: 30%;
-  
-  
-}
+  border-left-width: 0% !important;
+  margin-right: 30%; 
+  }
 
 #iconathink {
   width: 10%;
   background-color:#ECEEF0 ;
+  }
+
+.logonavbar {
+  width:20%;
+  }
+
+#idea{
+width: 5%;
+margin-right: 1em;
+margin-bottom: 1em;
+}
+
+#calendar{
+width: 5%;
+margin-right: 1em;
+margin-bottom: 1em;
+}
+
+#location{
+width:5%;
+margin-right: 1em;
+margin-bottom: 1em;
+}
+
+#money{
+width:5%;
+margin-right: 1em;
+margin-bottom: 1em;
+}
+
+#question{
+width:5%;
+margin-right: 1em;
+margin-bottom: 1em;
+}
+
+.wireframe {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width:60%;
+  height: auto;
+  margin-top:5%;
+  margin-bottom:5%;
+  }
+
+.c1 {
+  width:100% !important;
+  margin-left:none;
+  }
+
+.sm {
+  padding:1em;
+  }
+
+#scrittauniscitianoi {
+  position:relative;
+  font-family: "Noto serif";
+  text-align: center;
+  width: 80% !important;
+  color: #2450A6;
+  margin-right:auto;
+  margin-left:auto;
+  padding: 5em;
+  font-size:2em;
+  }
+
+#faccisapere{
+  margin-top: 3em;
+  margin-bottom: 3em;
+  }
+
+#w {
+  max-width:60%;
+  margin-left:20%;
+  margin-top:5%;
+  margin-bottom:5%;
+  }
+
+.text-heading{
+  color: #2450A6;
+  font-family: 'Chewy';
+  }
+
+.sottotitoli{
+  color:#2450A6;
+  font-family:'Notoserif';
+  font-size: 2em;
+  }
+
+.sottotitoli2{
+  color:#2450A6;
+  font-family:'Notoserif';
+  margin-left: 20%;
+  font-size: 2em;
+  }
+
+.sample-text{
+  color: #2450A6;
+  font-family: 'Notoserif';
+  }
+
+#architetturasito{
+  max-width: 50%;
+  margin-left:25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  }
+
+#tabcompetitors {
+  width:70%;
+  margin-left:15%;
+  margin-right:15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+footer {
+  color:#ECEEF0;
+  font-family: 'Notoserif' sans-serif;
+  }
+
+.rights {
+  margin-top:2em;
+  margin-bottom:0px;
+  opacity:50%;
+  }
+.spaziatura {
+  letter-spacing:0,2em;
 }
