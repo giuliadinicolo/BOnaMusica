@@ -4,8 +4,8 @@
   <meta charset='uft-8'>
      <link rel = "stylesheet" type = "text/css" href= "css/style.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Noto+Serif:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Roboto+Slab&display=swap" rel="stylesheet">
    <!-- per menu a tendina-->
    <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>.dropbtn {
@@ -19,13 +19,15 @@
   border-bottom-right-color: #be4d25; 
   padding: 1em;
   border: none;
-   font-family: 'Noto Serif' sans-serif;
+  font-family: 'Roboto Slab', serif;
+  
 }
 .dropdown {
   position: relative;
   display: inline-block;
   border: none;
-   font-family: 'Noto Serif' sans-serif;
+  font-family: 'Roboto Slab', serif;
+  
 }
 .dropdown-content {
   display: none;
@@ -143,7 +145,7 @@
 
 form {
   border: solid #F25D07;
-  font-family: "Noto serif", sans-serif;
+  font-family: 'Roboto Slab', serif;
   width:80%;
   margin-right: auto;
   margin-left: auto;
@@ -180,6 +182,22 @@ input[type=submit]:hover {
   opacity: 0.8;
 }
 </style>
+
+<!--per carosello-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+
+
 </head>
 <body>
   <div class="container-fluid">
@@ -216,23 +234,50 @@ input[type=submit]:hover {
      <main>
      <section class="row morepadding">
             <section class="col-sm-12 col-md-6 col-lg-6">
-              <img class="c1" src="images/theatreopera.jpg" alt="foto concerto"/>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="c1" src="images/theatre.jpg" alt="foto concerto"/>
+    </div>
+    <div class="carousel-item">
+      <img src="images/otello.jpg" alt="Otello">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+           
             </section>
               <section class="col-sm-12 col-md-6 col-lg-6">
 <section>
-<p><img id="idea" src="images/idea.png" alt="idea icon"/> concerto tal dei tali</p>
+<p><img id="idea" src="images/idea.png" alt="idea icon"/>Otello - Giuseppe Verdi</p>
 </section>
 <section>
-<p><img id="calendar" src="images/calendar.png" alt="calendar icon"/>dove</p>
+<p><img id="calendar" src="images/calendar.png" alt="calendar icon"/>Dal 24/06/2022 al 30/06/2022</p>
 </section>
 <section>
-<p><img id="location" src="images/location.png" alt="location icon"/>dove</p>
+<p><img id="location" src="images/location.png" alt="location icon"/>Teatro Comunale di Bologna, Piazza Verdi</p>
 </section>
 <section>
-<p><img id="money" src="images/money.png" alt="money icon"/>dove</p>
+<p><img id="money" src="images/money.png" alt="money icon"/>A partire da £10</p>
 </section>
 <section>
-<p><img id="question" src="images/question.png" alt="question icon"/>dove</p>
+<p><img id="question" src="images/question.png" alt="question icon"/>Stagione d'Opera 2022</p>
 </section>
 
             </section>
@@ -240,46 +285,46 @@ input[type=submit]:hover {
 
        <section class="row morepadding">
             <section class="col-sm-12 col-md-6 col-lg-6">
-              <img class="c1" src="images/tromba.jpg" alt="foto concerto"/>
+              <img class="c1" src="images/rap.jpg" alt="foto rap"/>
             </section>
               <section class="col-sm-12 col-md-6 col-lg-6">
 <section>
-<p><img id="idea" src="images/idea.png" alt="idea icon"/> concerto tal dei tali</p>
+<p><img id="idea" src="images/idea.png" alt="idea icon"/>Una lezione sul rap di Murubutu</p>
 </section>
 <section>
-<p><img id="calendar" src="images/calendar.png" alt="calendar icon"/>dove</p>
+<p><img id="calendar" src="images/calendar.png" alt="calendar icon"/>26/06/2022, ore 21.00</p>
 </section>
 <section>
-<p><img id="location" src="images/location.png" alt="location icon"/>dove</p>
+<p><img id="location" src="images/location.png" alt="location icon"/>Piazza San Francesco, Bologna</p>
 </section>
 <section>
-<p><img id="money" src="images/money.png" alt="money icon"/>dove</p>
+<p><img id="money" src="images/money.png" alt="money icon"/>Ingresso gratuito, su prenotazione</p>
 </section>
 <section>
-<p><img id="question" src="images/question.png" alt="question icon"/>dove</p>
+<p><img id="question" src="images/question.png" alt="question icon"/>Un progetto Mismaonda, estate 2022</p>
 </section>
   </section>
        </section>
 
        <section class="row morepadding">
             <section class="col-sm-12 col-md-6 col-lg-6">
-              <img class="c1" src="images/theatredance.jpg" alt="foto concerto"/>
-            </section>
+      <img class="c1" src="images/theatredance.jpg" alt="foto ballerini"/>
+             </section>
               <section class="col-sm-12 col-md-6 col-lg-6">
 <section>
-<p><img id="idea" src="images/idea.png" alt="idea icon"/> concerto tal dei tali</p>
+<p><img id="idea" src="images/idea.png" alt="idea icon"/>Spettacolo Eros e Psiche</p>
 </section>
 <section>
-<p><img id="calendar" src="images/calendar.png" alt="calendar icon"/>dove</p>
+<p><img id="calendar" src="images/calendar.png" alt="calendar icon"/>Dal 12/07/2022 al 14/07/2022</p>
 </section>
 <section>
-<p><img id="location" src="images/location.png" alt="location icon"/>dove</p>
+<p><img id="location" src="images/location.png" alt="location icon"/>Teatro Duse, Bologna</p>
 </section>
 <section>
-<p><img id="money" src="images/money.png" alt="money icon"/>dove</p>
+<p><img id="money" src="images/money.png" alt="money icon"/>£11</p>
 </section>
 <section>
-<p><img id="question" src="images/question.png" alt="question icon"/>dove</p>
+<p><img id="question" src="images/question.png" alt="question icon"/>Compagnia Fantateatro danza, estate 2022</p>
 </section>
          </section>
        </section>
@@ -311,7 +356,7 @@ input[type=submit]:hover {
       </section>
       <!-- Add font awesome icons -->
 <a href="https://www.instagram.com/bonamusica.info/" class="fa fa-instagram"></a>
-<a href="#" class="fa fa-facebook"></a>
+<a href="https://www.facebook.com/BOna-Musica-109794365078514" class="fa fa-facebook"></a>
 <a href="doc.html" class="fa fa-folder"></a>
 <section class="rights">
 <p>©2022 BOna Musica - All rights riserved - Project made by Giulia Di Nicolò & Melissa Bocchi</p>
