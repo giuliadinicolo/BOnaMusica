@@ -18,29 +18,34 @@ body {
   text-align: center;
   background-color: #ECEEF0 !important;
   font-family: 'Chewy', cursive;
-  font-family: 'Noto Serif' sans-serif;
+  font-family: 'Roboto Slab', serif;
   color:#2450A6;
   }
 nav ul { 
   list-style-type: none; 
   padding-left:0px; 
   display: inline-block;
+  font-family: 'Roboto Slab', serif;
+
   }
+  /**
   @media only screen and (max-width: 600px) {
   nav ul {
     color:white !important;
   }
-}
+}**/
 
 nav ul li { 
   display: inline-block; 
   padding:none;
+  font-family: 'Roboto Slab', serif;
+
   }
-  @media only screen and (max-width: 600px) {
+  /**@media only screen and (max-width: 600px) {
   nav ul li {
     color:white !important;
   }
-}
+}**/
 
 .bluelink {  
   text-decoration: none !important; 
@@ -115,6 +120,7 @@ footer {
 
 h2 {
   color: #2450A6;
+  font-family: 'Roboto Slab', serif;
   }
 
 
@@ -233,7 +239,7 @@ h2 {
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  font-family: 'Noto Serif' sans-serif;
+  font-family: 'Roboto Slab', serif;
   color: #ECEEF0;
   padding: 10px 20px;
   border: solid 1px #0076a3;
@@ -368,15 +374,14 @@ margin-bottom: 1em;
   }
 
 #scrittauniscitianoi {
-  position:relative;
-  font-family: "Noto serif";
+  font-family: 'Roboto Slab', serif;
   text-align: center;
   width: 80% !important;
   color: #2450A6;
   margin-right:auto;
   margin-left:auto;
   padding: 5em;
-  font-size:2em;
+  font-size:150%;  
   }
 
 #faccisapere{
@@ -384,7 +389,7 @@ margin-bottom: 1em;
   margin-bottom: 3em;
   }
 
-#w {
+#w/**wireframe**/ {
   max-width:60%;
   margin-left:20%;
   margin-top:5%;
@@ -398,20 +403,20 @@ margin-bottom: 1em;
 
 .sottotitoli{
   color:#2450A6;
-  font-family:'Notoserif';
+  font-family: 'Roboto Slab', serif;
   font-size: 2em;
   }
 
 .sottotitoli2{
   color:#2450A6;
-  font-family:'Notoserif';
+  font-family: 'Roboto Slab', serif;
   margin-left: 20%;
   font-size: 2em;
   }
 
 .sample-text{
   color: #2450A6;
-  font-family: 'Notoserif';
+  font-family: 'Roboto Slab', serif;
   }
 
 #architetturasito{
@@ -431,9 +436,26 @@ margin-bottom: 1em;
 
 }
 
+#aboutus {
+  text-align:center;
+  color: #2450A6;
+  margin:15%;
+  font-size: 150%;
+  font-family: 'Roboto Slab', serif;
+  line-height: 2em;
+}
+
+#aboutus2 {
+ font-family: "Chewy"; 
+ text-decoration: bold;
+ font-size:3em;
+ margin-top: 10%;
+ line-height:2em;
+}
+
 footer {
   color:#ECEEF0;
-  font-family: 'Notoserif' sans-serif;
+  font-family: 'Roboto Slab', serif;
   }
 
 .rights {
