@@ -4,8 +4,8 @@
   <meta charset='uft-8'>
      <link rel = "stylesheet" type = "text/css" href= "css/style.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Noto+Serif:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Roboto+Slab&display=swap" rel="stylesheet">
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 <!--Get your code at fontawesome.com-->
@@ -22,13 +22,15 @@
   border-bottom-right-color: #be4d25; 
   padding: 1em;
   border: none;
-   font-family: 'Noto Serif' sans-serif;
+  font-family: 'Roboto Slab', serif;
+  
 }
 .dropdown {
   position: relative;
   display: inline-block;
   border: none;
-   font-family: 'Noto Serif' sans-serif;
+  font-family: 'Roboto Slab', serif;
+  
 }
 .dropdown-content {
   display: none;
@@ -145,7 +147,8 @@
 
 form {
   border: solid #F25D07;
-  font-family: "Noto serif", sans-serif;
+  font-family: 'Roboto Slab', serif;
+  
   width:80%;
   margin-right: auto;
   margin-left: auto;
@@ -182,6 +185,19 @@ input[type=submit]:hover {
   opacity: 0.8;
 }
 </style>
+<!--per carosello-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
 </head>
 <body>
   <div class="container-fluid">
@@ -218,23 +234,24 @@ input[type=submit]:hover {
      <main>
 <section class="row morepadding">
             <section class="col-sm-12 col-md-6 col-lg-6">
-              <img class="c1" src="images/1.jpg" alt="foto concerto"/>
+      <img class="c1" src="images/williephoto.jpg" alt="foto Willie Peyote">
+        
             </section>
               <section class="col-sm-12 col-md-6 col-lg-6">
 <section>
-<p><img id="idea" src="images/idea.png" alt="idea icon"/> concerto tal dei tali</p>
+<p><img id="idea" src="images/idea.png" alt="idea icon"/>Concerto Willie Peyote</p>
 </section>
 <section>
-<p><img id="calendar" src="images/calendar.png" alt="calendar icon"/>dove</p>
+<p><img id="calendar" src="images/calendar.png" alt="calendar icon"/>22/06/2022, ore 21.00</p>
 </section>
 <section>
-<p><img id="location" src="images/location.png" alt="location icon"/>dove</p>
+<p><img id="location" src="images/location.png" alt="location icon"/>Parco delle Caserme Rosse, Bologna</p>
 </section>
 <section>
-<p><img id="money" src="images/money.png" alt="money icon"/>dove</p>
+<p><img id="money" src="images/money.png" alt="money icon"/>A partire da £23</p>
 </section>
 <section>
-<p><img id="question" src="images/question.png" alt="question icon"/>dove</p>
+<p><img id="question" src="images/question.png" alt="question icon"/>Concerto open air estate 2022</p>
 </section>
 
             </section>
@@ -242,46 +259,75 @@ input[type=submit]:hover {
 
        <section class="row morepadding">
             <section class="col-sm-12 col-md-6 col-lg-6">
-              <img class="c1" src="images/toccaanoi.jpg" alt="foto concerto"/>
+              <img class="c1" src="images/deus.jpg" alt="foto concerto"/>
             </section>
               <section class="col-sm-12 col-md-6 col-lg-6">
 <section>
-<p><img id="idea" src="images/idea.png" alt="idea icon"/> concerto tal dei tali</p>
+<p><img id="idea" src="images/idea.png" alt="idea icon"/>Concerto Deus @ Botanic</p>
 </section>
 <section>
-<p><img id="calendar" src="images/calendar.png" alt="calendar icon"/>dove</p>
+<p><img id="calendar" src="images/calendar.png" alt="calendar icon"/>28/06/2022, ore 21.00</p>
 </section>
 <section>
-<p><img id="location" src="images/location.png" alt="location icon"/>dove</p>
+<p><img id="location" src="images/location.png" alt="location icon"/>Estragon Club</p>
 </section>
 <section>
-<p><img id="money" src="images/money.png" alt="money icon"/>dove</p>
+<p><img id="money" src="images/money.png" alt="money icon"/>£25</p>
 </section>
 <section>
-<p><img id="question" src="images/question.png" alt="question icon"/>dove</p>
+<p><img id="question" src="images/question.png" alt="question icon"/>Band belga, musica indie-rock</p>
 </section>
   </section>
        </section>
 
        <section class="row morepadding">
             <section class="col-sm-12 col-md-6 col-lg-6">
-              <img class="c1" src="images/3.jpg" alt="foto concerto"/>
+              
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="c1" src="images/fabrifibra.jpg" alt="Fabri Fibra">
+    </div>
+    <div class="carousel-item">
+      <img class="c1" src="images/fabri2.jpg" alt="Fabri Fibra locandina">
+    </div>
+  </div>
+  
+ <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+              
             </section>
               <section class="col-sm-12 col-md-6 col-lg-6">
 <section>
-<p><img id="idea" src="images/idea.png" alt="idea icon"/> concerto tal dei tali</p>
+<p><img id="idea" src="images/idea.png" alt="idea icon"/>Concerto Fabri Fibra</p>
 </section>
 <section>
-<p><img id="calendar" src="images/calendar.png" alt="calendar icon"/>dove</p>
+<p><img id="calendar" src="images/calendar.png" alt="calendar icon"/>17/07/2022, ore 20.30</p>
 </section>
 <section>
-<p><img id="location" src="images/location.png" alt="location icon"/>dove</p>
+<p><img id="location" src="images/location.png" alt="location icon"/>Parco delle Caserme Rosse, Bologna</p>
 </section>
 <section>
-<p><img id="money" src="images/money.png" alt="money icon"/>dove</p>
+<p><img id="money" src="images/money.png" alt="money icon"/>A partire da £38</p>
 </section>
 <section>
-<p><img id="question" src="images/question.png" alt="question icon"/>dove</p>
+<p><img id="question" src="images/question.png" alt="question icon"/>"Caos live festival tour"</p>
 </section>
          </section>
        </section>
@@ -314,7 +360,7 @@ input[type=submit]:hover {
       </section>
       <!-- Add font awesome icons -->
 <a href="https://www.instagram.com/bonamusica.info/" class="fa fa-instagram"></a>
-<a href="#" class="fa fa-facebook"></a>
+<a href="https://www.facebook.com/BOna-Musica-109794365078514" class="fa fa-facebook"></a>
 <a href="doc.html" class="fa fa-folder"></a>
 <section class="rights">
 <p>©2022 BOna Musica - All rights riserved - Project made by Giulia Di Nicolò & Melissa Bocchi</p>

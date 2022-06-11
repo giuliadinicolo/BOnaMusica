@@ -4,8 +4,8 @@
   <meta charset='uft-8'>
      <link rel = "stylesheet" type = "text/css" href= "css/style.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Noto+Serif:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chewy&family=Roboto+Slab&display=swap" rel="stylesheet">
    <!-- per menu a tendina-->
    <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>.dropbtn {
@@ -19,13 +19,15 @@
   border-bottom-right-color: #be4d25; 
   padding: 1em;
   border: none;
-   font-family: 'Noto Serif' sans-serif;
+  font-family: 'Roboto Slab', serif;
+  
 }
 .dropdown {
   position: relative;
   display: inline-block;
   border: none;
-   font-family: 'Noto Serif' sans-serif;
+  font-family: 'Roboto Slab', serif;
+  
 }
 .dropdown-content {
   display: none;
@@ -180,6 +182,19 @@ input[type=submit]:hover {
   opacity: 0.8;
 }
 </style>
+<!--per carosello-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
 </head>
 <body>
   <div class="container-fluid">
@@ -216,23 +231,23 @@ input[type=submit]:hover {
      <main>
       <section class="row morepadding">
             <section class="col-sm-12 col-md-6 col-lg-6">
-              <img class="c1" src="images/sezionebar.jpg" alt="foto concerto"/>
+              <img class="c1" src="images/serre1.jpg" alt="Serre dei Giardini Margherita"/>
             </section>
               <section class="col-sm-12 col-md-6 col-lg-6">
 <section>
-<p><img id="idea" src="images/idea.png" alt="idea icon"/> concerto tal dei tali</p>
+<p><img id="idea" src="images/idea.png" alt="idea icon"/>Fotosintesi</p>
 </section>
 <section>
-<p><img id="calendar" src="images/calendar.png" alt="calendar icon"/>dove</p>
+<p><img id="calendar" src="images/calendar.png" alt="calendar icon"/>18/06/2022, dalle ore 7.00</p>
 </section>
 <section>
-<p><img id="location" src="images/location.png" alt="location icon"/>dove</p>
+<p><img id="location" src="images/location.png" alt="location icon"/>Le Serre dei Giardini Margherita</p>
 </section>
 <section>
-<p><img id="money" src="images/money.png" alt="money icon"/>dove</p>
+<p><img id="money" src="images/money.png" alt="money icon"/>Ingresso libero</p>
 </section>
 <section>
-<p><img id="question" src="images/question.png" alt="question icon"/>dove</p>
+<p><img id="question" src="images/question.png" alt="question icon"/>Liveset dall'alba al brunch</p>
 </section>
 
             </section>
@@ -244,42 +259,67 @@ input[type=submit]:hover {
             </section>
               <section class="col-sm-12 col-md-6 col-lg-6">
 <section>
-<p><img id="idea" src="images/idea.png" alt="idea icon"/> concerto tal dei tali</p>
+<p><img id="idea" src="images/idea.png" alt="idea icon"/>Musica a Cappellissima</p>
 </section>
 <section>
-<p><img id="calendar" src="images/calendar.png" alt="calendar icon"/>dove</p>
+<p><img id="calendar" src="images/calendar.png" alt="calendar icon"/>18/06/2022, ore 20.45</p>
 </section>
 <section>
-<p><img id="location" src="images/location.png" alt="location icon"/>dove</p>
+<p><img id="location" src="images/location.png" alt="location icon"/>Arena Orfeonica, Bologna</p>
 </section>
 <section>
-<p><img id="money" src="images/money.png" alt="money icon"/>dove</p>
+<p><img id="money" src="images/money.png" alt="money icon"/>Evento gratuito, con donazione</p>
 </section>
 <section>
-<p><img id="question" src="images/question.png" alt="question icon"/>dove</p>
+<p><img id="question" src="images/question.png" alt="question icon"/>Pop italiano e internazionale rivisitato</p>
 </section>
   </section>
        </section>
 
        <section class="row morepadding">
             <section class="col-sm-12 col-md-6 col-lg-6">
-              <img class="c1" src="images/musicalive.jpg" alt="foto concerto"/>
+              <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="c1" src="images/djsetopenair.jpg" alt="Panorama da Villa Spada"/>
+    </div>
+    <div class="carousel-item">
+      <img class="c1" src="images/villaspada.jpg" alt="Panorama da Villa Spada"/>
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
             </section>
               <section class="col-sm-12 col-md-6 col-lg-6">
 <section>
-<p><img id="idea" src="images/idea.png" alt="idea icon"/> concerto tal dei tali</p>
+<p><img id="idea" src="images/idea.png" alt="idea icon"/>Dj set Dino Angioletti</p>
 </section>
 <section>
-<p><img id="calendar" src="images/calendar.png" alt="calendar icon"/>dove</p>
+<p><img id="calendar" src="images/calendar.png" alt="calendar icon"/>25/06/2022</p>
 </section>
 <section>
-<p><img id="location" src="images/location.png" alt="location icon"/>dove</p>
+<p><img id="location" src="images/location.png" alt="location icon"/>Villa Spada, Bologna</p>
 </section>
 <section>
-<p><img id="money" src="images/money.png" alt="money icon"/>dove</p>
+<p><img id="money" src="images/money.png" alt="money icon"/>Evento gratuito </p>
 </section>
 <section>
-<p><img id="question" src="images/question.png" alt="question icon"/>dove</p>
+<p><img id="question" src="images/question.png" alt="question icon"/></p>
 </section>
          </section>
        </section>
@@ -312,7 +352,7 @@ input[type=submit]:hover {
       </section>
       <!-- Add font awesome icons -->
 <a href="https://www.instagram.com/bonamusica.info/" class="fa fa-instagram"></a>
-<a href="#" class="fa fa-facebook"></a>
+<a href="https://www.facebook.com/BOna-Musica-109794365078514" class="fa fa-facebook"></a>
 <a href="doc.html" class="fa fa-folder"></a>
 <section class="rights">
 <p>©2022 BOna Musica - All rights riserved - Project made by Giulia Di Nicolò & Melissa Bocchi</p>
