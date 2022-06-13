@@ -387,8 +387,8 @@ margin-bottom: 1em;
 #faccisapere{
   margin-top: 2em;
   margin-bottom: 2em;
-  font-family: 'Chewy';
-  font-size: 2em;
+  font-family: "Chewy";
+  font-size:2em;
   }
 
 #w/**wireframe**/ {
@@ -462,17 +462,17 @@ margin-bottom: 1em;
   text-align:center;
   color: #2450A6;
   margin-left:20%;
-  margin-right: 20%;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-right:20%;
+  margin-top:10%;
+  margin-bottom:10%;
   font-size: 150%;
   font-family: 'Roboto Slab', serif;
   line-height: 2em;
 }
 
-.space{
-  margin-top: 10%;
-  margin-bottom: 10%;
+.space {
+margin-top: 10% !important;
+margin-bottom: 10% !important;
 }
 
 #aboutus2 {
