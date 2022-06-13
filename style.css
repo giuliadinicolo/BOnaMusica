@@ -1,0 +1,498 @@
+header {
+  background-color:#F25D07;
+  color: #2450A6;
+  text-align: center;
+  margin: 0em; /*per togliere margin panna sopra*/
+  padding-right: 0em;
+  padding-left: 0em;
+  padding-top: 1em;
+  padding-bottom: 6em;
+  padding: #F25D07 !important;
+  font-family: 'Chewy', cursive, !important;
+
+}
+
+
+body {
+  margin:70px; 
+  text-align: center;
+  background-color: #ECEEF0 !important;
+  font-family: 'Chewy', cursive;
+  font-family: 'Roboto Slab', serif;
+  color:#2450A6;
+  }
+nav ul { 
+  list-style-type: none; 
+  padding-left:0px; 
+  display: inline-block;
+  font-family: 'Roboto Slab', serif;
+
+  }
+  /**
+  @media only screen and (max-width: 600px) {
+  nav ul {
+    color:white !important;
+  }
+}**/
+
+nav ul li { 
+  display: inline-block; 
+  padding:none;
+  font-family: 'Roboto Slab', serif;
+
+  }
+  /**@media only screen and (max-width: 600px) {
+  nav ul li {
+    color:white !important;
+  }
+}**/
+
+.bluelink {  
+  text-decoration: none !important; 
+  color: #2450A6 !important;
+  margin: 30px;
+  }
+
+.bluelink:hover {
+  color:#ECEEF0 !important ;
+  /*non so se lo fa panna o se rimane bianco*/
+  text-decoration: none !important;
+  }
+.active {
+  text-decoration: underline;
+  }
+
+.nav {
+  margin-top: 0px auto; 
+  margin-bottom: 0px auto;
+  text-align: right !important; 
+  }
+
+.dropdown-menu {
+  margin: 0px auto; 
+  display: inline-block;
+  }
+
+.dropdown-item {
+  display: inline-block;
+  text-align: center !important;
+  }
+
+footer {
+  background-color:#2450A6;
+  text-align: center;
+ /*lascia i due margini cosi per avere spaziatura da entrambi i lati*/
+  margin-right: 0px auto;
+  margin-left: 0px auto;
+  padding: 40px;
+  }
+
+#homeimage {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  padding-top:0px;
+  margin-top: 0px;
+  margin-bottom: 10%;
+  min-height:10%;
+  }
+
+.headerimage {
+/*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
+  max-width: 100%;
+  height: auto;
+  /*4 seguenti per centrare immagine*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  margin-top: 0px;
+  margin-bottom: 1% !important;
+  min-height:10% !important;
+  }
+
+.morepadding {
+  padding: 1em 15%;   
+  }
+
+h2 {
+  color: #2450A6;
+  font-family: 'Roboto Slab', serif;
+  }
+
+
+#concerto1image {
+  width: auto !important;
+  width: 100%;
+  height: auto;
+  /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
+  max-width: 100%;
+  height: auto;
+  /*4 seguenti per centrare immagine*/
+  display: block;
+  margin-bottom:5%;
+  /*per distanziare il bottone*/
+  border-radius:10%;  
+  }
+#teatro1image {
+  width: auto !important;
+  width: 100%;
+  height: auto;
+  /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
+  max-width: 100%;
+  height: auto;
+  /*4 seguenti per centrare immagine*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom:5%;
+  border-radius:10%;
+  }
+
+#banddistrada1image {
+  width: auto !important;
+  width: 100%;
+  height: auto;
+  /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
+  max-width: 100%;
+  height: auto;
+  /*4 seguenti per centrare immagine*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom:5%;
+  width: 100%;
+  border-radius:10%;
+  }
+
+#bar1image {
+  width: auto !important;
+  width: 100%;
+  height: auto;
+  /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
+  max-width: 100%;
+  height: auto;
+  /*4 seguenti per centrare immagine*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom:5%;
+  width: 100%;
+  border-radius:10%;
+  }
+
+#disco1image {
+  width: auto !important;
+  width: 100%;
+  height: auto;
+  /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
+  max-width: 100%;
+  height: auto;
+  /*4 seguenti per centrare immagine*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom:5%;
+  width: 100%;
+  border-radius:10%;
+  }
+
+#karaoke1image {
+  width: auto !important;
+  width: 100%;
+  height: auto;
+  /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
+  max-width: 100% !important;
+  height: auto;
+  /*4 seguenti per centrare immagine*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom:5%;
+  width: 100%;
+  border-radius:10%; 
+  }
+
+.col-sm-12 {
+  padding-top: 2em;
+  padding-bottom: 2em; 
+  }
+
+#motto {
+  font-family: 'Chewy' !important;
+  text-align: center !important;
+  font-size:5rem;
+  vertical-align;
+  /*non so come mettere il testo in centro rispetto all'arancio*/
+  margin-top: 1em;
+  margin-bottom: auto;
+  letter-spacing: 0.03em;
+  padding-right: 1em;
+  padding-left: 1em;
+  }
+
+.pulsante {
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto Slab', serif;
+  color: #ECEEF0;
+  padding: 10px 20px;
+  border: solid 1px #0076a3;
+  background: #2450A6;
+  margin-bottom: 30% !important;
+  margin-top:auto !important;
+  border-radius: 10px;
+  }
+
+ .pulsante:hover {
+  color:#F25D07;
+  text-decoration: none;
+  }
+
+ #concerts {
+  width: auto !important;
+  width: 100%;
+  height: auto;
+  /*i due comandi sotto servono per ridimensionare img rispetto a device reattive*/
+  max-width: 100%;
+  height: auto;
+  /*4 seguenti per centrare immagine*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  }
+
+ .fa-solid {
+  margin:70px;
+  text-align: center;
+  }
+
+#maps {
+  position:relative;
+  /**margin-left:20%;**/
+  padding-top:20px;
+  padding-bottom:55%;
+  height: 0;
+  overflow: hidden;
+  }
+ 
+#maps iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width: 80%;
+  height: 80%;
+  margin-left:10%;
+ }
+
+
+#logoo {
+  max-width: 100%;
+  height: auto !important;
+  /*4 seguenti per centrare immagine*/
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-height: 100px;
+  }
+
+
+.logoovale {
+  max-width: 100%;
+  height: auto !important;
+  width: 10%;
+  padding-left: none !important;
+  margin-left:none !important;
+  border-left-width: none;
+  border-left-width: 0% !important;
+  margin-right: 30%; 
+  }
+
+#iconathink {
+  width: 10%;
+  background-color:#ECEEF0 ;
+  }
+
+.logonavbar {
+  width:20%;
+  }
+
+.idea{
+width: 5%;
+margin-right: 1em;
+margin-bottom: 1em;
+}
+
+.calendar{
+width: 5%;
+margin-right: 1em;
+margin-bottom: 1em;
+}
+
+.location{
+width:5%;
+margin-right: 1em;
+margin-bottom: 1em;
+}
+
+.money{
+width:5%;
+margin-right: 1em;
+margin-bottom: 1em;
+}
+
+.question{
+width:5%;
+margin-right: 1em;
+margin-bottom: 1em;
+}
+
+.wireframe {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width:60%;
+  height: auto;
+  margin-top:5%;
+  margin-bottom:5%;
+  }
+
+.c1 {
+  width:100% !important;
+  margin-left:none;
+  }
+
+.sm {
+  padding:1em;
+  }
+
+#scrittauniscitianoi {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  width: 80% !important;
+  color: #2450A6;
+  margin-right:auto;
+  margin-left:auto;
+  padding: 5em;
+  font-size:150%;  
+  }
+
+#faccisapere{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-family: "Chewy";
+  font-size:2em;
+  }
+
+#w/**wireframe**/ {
+  max-width:60%;
+  margin-left:20%;
+  margin-top:5%;
+  margin-bottom:5%;
+  }
+
+.text-heading{
+  color: #2450A6;
+  font-family: 'Chewy';
+  text-align:center;
+  }
+
+.sottotitoli{
+  color:#2450A6;
+  font-family: 'Roboto Slab', serif;
+  font-size: 2em;
+  margin-right:20%;
+  margin-left:20%;
+  text-align:center;
+  }
+
+.sottotitoli2{
+  color:#2450A6;
+  font-family: 'Roboto Slab', serif;
+  margin-left: 20%;
+  font-size: 2em;
+  margin-right:20%;
+  margin-left:20%;
+  }
+
+.sample-text{
+  color: #2450A6;
+  font-family: 'Roboto Slab', serif;
+  text-align:center;
+  margin-right:20%;
+  margin-left:20%;
+  margin-top:5%;
+  margin-bottom:5%;
+  }
+
+#architetturasito{
+  max-width: 50%;
+  margin-left:25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  }
+
+#tabcompetitors {
+  width:70%;
+  margin-left:15%;
+  margin-right:15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.post{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width:60%;
+  height: auto;
+  margin-top:5%;
+  margin-bottom:5%;
+}
+
+#aboutus {
+  text-align:center;
+  color: #2450A6;
+  margin-left:20%;
+  margin-right:20%;
+  margin-top:10%;
+  margin-bottom:10%;
+  font-size: 150%;
+  font-family: 'Roboto Slab', serif;
+  line-height: 2em;
+}
+
+.space {
+margin-top: 10% !important;
+margin-bottom: 10% !important;
+}
+
+#aboutus2 {
+ font-family: "Chewy"; 
+ text-decoration: bold;
+ font-size:3em;
+ margin-top: 10%;
+ line-height:2em;
+}
+
+footer {
+  color:#ECEEF0;
+  font-family: 'Roboto Slab', serif;
+  }
+
+.rights {
+  margin-top:2em;
+  margin-bottom:0px;
+  opacity:50%;
+  }
+.spaziatura {
+  letter-spacing:0,2em;
+}
