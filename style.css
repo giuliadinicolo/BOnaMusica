@@ -330,25 +330,25 @@ margin-right: 1em;
 margin-bottom: 1em;
 }
 
-#calendar{
+.calendar{
 width: 5%;
 margin-right: 1em;
 margin-bottom: 1em;
 }
 
-#location{
+.location{
 width:5%;
 margin-right: 1em;
 margin-bottom: 1em;
 }
 
-#money{
+.money{
 width:5%;
 margin-right: 1em;
 margin-bottom: 1em;
 }
 
-#question{
+.question{
 width:5%;
 margin-right: 1em;
 margin-bottom: 1em;
