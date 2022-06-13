@@ -224,7 +224,7 @@ h2 {
 #motto {
   font-family: 'Chewy' !important;
   text-align: center !important;
-  font-size: 5rem;
+  font-size: 400%;
   vertical-align;
   /*non so come mettere il testo in centro rispetto all'arancio*/
   margin-top: 1em;
