@@ -222,7 +222,7 @@ h2 {
   }
 
 #motto {
-  font-family: 'Chewy';
+  font-family: 'Chewy' !important;
   text-align: center !important;
   font-size:4em;
   vertical-align;
@@ -324,7 +324,7 @@ h2 {
   width:20%;
   }
 
-#idea{
+.idea{
 width: 5%;
 margin-right: 1em;
 margin-bottom: 1em;
@@ -399,12 +399,16 @@ margin-bottom: 1em;
 .text-heading{
   color: #2450A6;
   font-family: 'Chewy';
+  text-align:center;
   }
 
 .sottotitoli{
   color:#2450A6;
   font-family: 'Roboto Slab', serif;
   font-size: 2em;
+  margin-right:20%;
+  margin-left:20%;
+  text-align:center;
   }
 
 .sottotitoli2{
@@ -412,11 +416,18 @@ margin-bottom: 1em;
   font-family: 'Roboto Slab', serif;
   margin-left: 20%;
   font-size: 2em;
+  margin-right:20%;
+  margin-left:20%;
   }
 
 .sample-text{
   color: #2450A6;
   font-family: 'Roboto Slab', serif;
+  text-align:center;
+  margin-right:20%;
+  margin-left:20%;
+  margin-top:5%;
+  margin-bottom:5%;
   }
 
 #architetturasito{
@@ -433,7 +444,16 @@ margin-bottom: 1em;
   margin-right:15%;
   margin-top: 5%;
   margin-bottom: 5%;
+}
 
+.post{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width:60%;
+  height: auto;
+  margin-top:5%;
+  margin-bottom:5%;
 }
 
 #aboutus {
