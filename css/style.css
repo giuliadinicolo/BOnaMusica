@@ -225,15 +225,84 @@ h2 {
   font-family: 'Chewy' !important;
   text-align: center !important;
   font-size: 400%;
-  vertical-align;
   /*non so come mettere il testo in centro rispetto all'arancio*/
   margin-top: 1em;
   margin-bottom: auto;
+  margin-right: 5%;
+  margin-left: 5%;
   letter-spacing: 0.03em;
   padding-right: 1em;
   padding-left: 1em;
   }
+#mottoconcerti {
+  text-align: center !important;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-family: 'Chewy' !important;
+  font-size: 400%;
+}
+#ourphilosophy {
+  text-align: center !important;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-family: 'Chewy' !important;
+  font-size: 400%;
+}
+#mottodoc {
+  text-align: center !important;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-family: 'Chewy' !important;
+  font-size: 400%;
+}
 
+#mottoteatro {
+  text-align: center !important;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-family: 'Chewy' !important;
+  font-size: 400%;
+}
+
+#mottoband {
+  text-align: center !important;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-family: 'Chewy' !important;
+  font-size: 400%;
+}
+
+#mottobar {
+  text-align: center !important;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-family: 'Chewy' !important;
+  font-size: 400%;
+}
+
+#mottodisco {
+  text-align: center !important;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-family: 'Chewy' !important;
+  font-size: 400%;
+}
+
+#mottokaraoke {
+  text-align: center !important;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-family: 'Chewy' !important;
+  font-size: 400%;
+}
+
+#mottounisciti {
+  text-align: center !important;
+  margin-right: 5%;
+  margin-left: 5%;
+  font-family: 'Chewy' !important;
+  font-size: 400%;
+}
 .pulsante {
   outline: none;
   cursor: pointer;
@@ -373,23 +442,6 @@ margin-bottom: 1em;
   padding:1em;
   }
 
-#scrittauniscitianoi {
-  font-family: 'Roboto Slab', serif;
-  text-align: center;
-  width: 80% !important;
-  color: #2450A6;
-  margin-right:auto;
-  margin-left:auto;
-  padding: 5em;
-  font-size:150%;  
-  }
-
-#faccisapere{
-  margin-top: 2em;
-  margin-bottom: 2em;
-  font-family: "Chewy";
-  font-size:2em;
-  }
 
 #w/**wireframe**/ {
   max-width:60%;
@@ -482,6 +534,31 @@ margin-bottom: 10% !important;
  margin-top: 10%;
  line-height:2em;
 }
+
+#scrittauniscitianoi {
+  text-align:center;
+  color: #2450A6;
+  margin-left:20%;
+  margin-right:20%;
+  margin-top:10%;
+  margin-bottom:10%;
+  font-size: 150%;
+  font-family: 'Roboto Slab', serif;
+  line-height: 2em;
+}
+
+#faccisapere{
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-family: "Chewy";
+  font-size:2em;
+  }
+
+#mail {
+ text-align: center !important;
+ font-size: 100%; 
+}
+
 
 footer {
   color:#ECEEF0;
