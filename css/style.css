@@ -1,3 +1,5 @@
+html, body, .container {height:100%;}
+
 header {
   background-color:#F25D07;
   color: #2450A6;
@@ -572,4 +574,8 @@ footer {
   }
 .spaziatura {
   letter-spacing:0,2em;
+}
+
+.valutazione {
+  width: 100%;
 }
